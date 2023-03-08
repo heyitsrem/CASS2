@@ -192,7 +192,7 @@ input[type=password], select {
     border: none;
     position: relative;
     margin: auto;
-    width: 60%;
+    width: 100%;
   }
   .intro {
     display: block;
@@ -294,6 +294,6 @@ input[type=password], select {
       border: none;
       position: relative;
       margin: auto;
-      width: 100%;
+      width: auto;
     }
   }
