@@ -183,6 +183,7 @@ input[type=password], select {
     display: block;
     border: none;
     margin: auto;
+    width: auto;
   }
   .intro {
     display: block;
