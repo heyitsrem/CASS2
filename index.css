@@ -39,14 +39,22 @@ body {
 #intro-text {
     color: #1d243399
 }
+.no-seleect {
+  -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
 #intro-text2 {
   display: none;
 }
 .counsel-img {
+    border: none;
     position: relative;
     float: right;
     margin-right: 10%;
-    width: auto;
+    width: 45%;
 }
 .counsel-img2 {
   display: none;
@@ -182,8 +190,9 @@ input[type=password], select {
   .counsel-img2 {
     display: block;
     border: none;
+    position: relative;
     margin: auto;
-    width: auto;
+    width: 60%;
   }
   .intro {
     display: block;
@@ -193,6 +202,9 @@ input[type=password], select {
     margin-top: auto;
     text-align: justify;
     width: 57%;
+  }
+  .intro-text {
+    font-size: 40px;
   }
   #intro-text {
     display: block;
@@ -277,9 +289,11 @@ input[type=password], select {
        width: 100%;
        height: auto;
     }
-    .counsel-img {
-      margin-right: auto;
-      margin: 0;
+    .counsel-img2 {
+      display: block;
+      border: none;
+      position: relative;
+      margin: auto;
       width: 100%;
-  }
+    }
   }
