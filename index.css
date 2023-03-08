@@ -1,0 +1,234 @@
+body {
+    margin: auto;
+    height:100%;
+    background-color: #F5F9FF !important;
+    font-family: 'Baloo 2' !important;
+}
+.get-started {
+    display: block;
+    text-decoration: none;
+    position: relative;
+    background-color: #1574F6;
+    text-align: center;
+    color:white;
+    border-radius: 36px;
+    height: 72px;
+    width: 25%;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.30);
+}
+.get-started:hover {
+    cursor: pointer;
+}
+#get-text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 30%;
+}
+.intro {
+    margin-left: 7%;
+    margin-top: 10%;
+    color: #1D2433;
+}
+.intro-text {
+    color: #1D2433;
+    font-weight: 600;
+    font-size: 50px;
+}
+#intro-text {
+    color: #1d243399
+}
+.counsel-img {
+    float: right;
+    margin-right: 10%;
+    width: auto;
+}
+.body {
+    background-image: url(img/333983927_928233651539175_3939733334734714725_n.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.square {
+    position: relative;
+    text-align: center;
+    backdrop-filter: blur(30px);
+    background-color: rgba(0, 0, 0, 0.4);
+    height: auto;
+    width: 50%;
+    min-height:100vh;
+    color:white;
+}
+.login-text {
+    margin-bottom: 20%;
+}
+.form {
+  margin-top: 75px;
+}
+.submit {
+    background-color: #1574F6;
+    color: white;
+    width: 65%;
+    text-decoration: none;
+    border-radius: 4px;
+    border: none;
+    height: 62px;
+}
+.myDiv {
+    float: left;
+    margin-left: 17.5%
+}
+#myDIV {
+    margin-left: 60%;
+}
+input[type=text], select {
+  width: 65%;
+  height: 62px;
+  display: inline-block;
+  border: 1px solid #D5D8DE;
+  border-radius: 4px;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+input[type=password], select {
+  width: 65%;
+  height: 62px;
+  display: inline-block;
+  border: 1px solid #D5D8DE;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+  border-bottom-left-radius: 0px;
+  border-bottom-right-radius: 4px;
+  box-sizing: border-box;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.show-pwd {
+  position: absolute;
+  text-decoration: none;
+  color:black;
+  border: 1px solid #D5D8DE;
+  background-color: white;
+  border-top-left-radius: 0px;
+  border-top-right-radius: 0px;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px;
+  width: 30%;
+}
+@media screen and (max-width: 1000px) {
+    .get-started {
+        text-decoration: none;
+        position: relative;
+        background-color: #1574F6;
+        text-align: center;
+        color:white;
+        border-radius: 36px;
+        height: 72px;
+        width: auto;
+    }
+    #get-text {
+        left: 0;
+        right: 0;
+    }
+    .intro {
+        text-align: justify;
+    }
+    .counsel-img {
+        display: none;
+    }
+    .square {
+        position: relative;
+        text-align: center;
+        backdrop-filter: blur(30px);
+        background-color: rgba(0, 0, 0, 0.4);
+        height: auto;
+        width: auto;
+        min-height:100vh;
+        color:white;
+    }
+    .myDiv {
+        margin-right: auto;
+    }
+}
+  #student-login, #admin-login {
+    background-color: #1574F6;
+    color: white;
+    width: 30%;
+    text-decoration: none;
+    border-radius: 50px;
+    border: none;
+    height: 50px;
+  }
+  .student-login, .admin-login {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Add padding and center-align text to the container */
+  .container {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  /* The Modal (background) */
+  .modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: #474e5d;
+    padding-top: 50px;
+  }
+  
+  /* Modal Content/Box */
+  .modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto; /* 5% from the top, 15% from the bottom and centered */
+    border: 1px solid #888;
+    width: 80%; /* Could be more or less, depending on screen size */
+  }
+  
+  /* Style the horizontal ruler */
+  hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+  }
+   
+  /* The Modal Close Button (x) */
+  .close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: #f1f1f190;
+    cursor: pointer;
+  }
+  
+  /* Clear floats */
+  .clearfix::after {
+    display: block;
+  }
+  
+  /* Change styles for cancel button and delete button on extra small screens */
+  @media screen and (max-width: 300px) {
+    .cancelbtn, .deletebtn {
+       width: 100%;
+       height: auto;
+    }
+  }
