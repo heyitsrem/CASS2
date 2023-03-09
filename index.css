@@ -147,6 +147,9 @@ input[type=password], select {
   cursor:pointer; 
   user-select: none;
 }
+.hamburger1 {
+  display: none;
+}
 .logo {
   margin-left: 1.5%;
 }
@@ -356,11 +359,23 @@ input[type=password], select {
 }
 
 @media screen and (max-width: 500px) {
-  .
+  .hamburger {
+    display: none;
+  }
+  .hamburger1 {
+    display: block;
+    z-index: 1;
+    position: relative;
+    margin-top: 2%;
+    font-size:30px;
+    cursor:pointer; 
+    user-select: none;
+  }
   .box-txt {
     font-size: x-large;
   }
   .boxes {
+    margin-left: 25%;
     width: auto;
     display: block;
   }
@@ -388,11 +403,12 @@ input[type=password], select {
     font-size: x-large;
   }
   .boxes {
+    margin-left: 15%;
     width: auto;
     display: block;
   }
   .box-style {
-    width: 50%;
+    width: 70%;
   }
   .box1 {
     margin-top: 15%;
@@ -414,11 +430,12 @@ input[type=password], select {
     font-size: x-large;
   }
   .boxes {
+    margin-left: 0%;
     width: auto;
     display: block;
   }
   .box-style {
-    width: 50%;
+    width: 100%;
   }
   .box1 {
     margin-top: 15%;
@@ -506,10 +523,14 @@ input[type=password], select {
   }
   /* Change styles for cancel button and delete button on extra small screens */
   @media screen and (max-width: 300px) {
+    .logo {
+      margin-left: 5%;
+    }
     .box-txt {
       font-size: x-large;
     }
     .boxes {
+      margin-left: 20%;
       width: auto;
       display: block;
     }
