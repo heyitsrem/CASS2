@@ -356,6 +356,7 @@ input[type=password], select {
 }
 
 @media screen and (max-width: 500px) {
+  .
   .box-txt {
     font-size: x-large;
   }
