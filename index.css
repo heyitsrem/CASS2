@@ -137,35 +137,29 @@ input[type=password], select {
   border-bottom-right-radius: 4px;
   width: 30%;
 }
-.hamburger {
-  display: inline-block;
-  z-index: 1;
+.sidebar {
+  height: 100%;
+  width: 32%;
   position: absolute;
-  margin-top: 2%;
-  margin-left: 2%;
-  font-size:30px;
-  cursor:pointer; 
-  user-select: none;
-}
-.hamburger1 {
-  display: none;
-}
+  left: 0;
+  top: 0;
+  border-top-right-radius: 30px;
+  border-bottom-right-radius: 30px;
+  padding-top: 40px;
+  background-color: #4F99FF;
+  }
+  
+  .side-link {
+  padding: 8px;
+  margin-left: 7%;
+  font-size: 24px;
+  display: inline-block;
+  color:black;
+  text-decoration: none;
+  }
+
 .logo {
   margin-left: 1.5%;
-}
-.sidenav {
-  height: 100%;
-  width: 0;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  backdrop-filter: blur(8px);
-  background-color: rgba(79, 153, 255, 0.80);
-  overflow-x: hidden;
-  transition: 0.5s;
-  padding-top: 60px;
-  text-align:center;
 }
 .logout {
   text-align: center;
@@ -175,47 +169,44 @@ input[type=password], select {
   border: none;
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.30);
   background-color: #1574F6;
-  width: 25%;
+  width: 307%;
   height: 40px;
   border-radius: 4px;
 }
-.sidenav a {
-  padding: 8px 8px 8px 32px;
-  text-decoration: none;
-  font-size: 25px;
-  color: black;
-  display: block;
-  transition: 0.3s;
-
-}
-.sidenav a:hover{
-  color: #f1f1f1;
-}
 .boxes {
-  margin-left: 20%;
+  margin-left: 25%;
   margin-top: 2%;
   user-select: none;
   display: block;
+}
+.box-link {
+  color:black;
+}
+.box-link:hover {
+  color:rgba(0, 0, 0, 0.8)
 }
 .box-style {
   position: absolute;
   border: none;  
   box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.25);
   background-color: rgba(252, 242, 0, 0.50);
-  width: 30%;
-  height: 50%;
+  width: 25%;
+  height: 45%;
   border-radius: 20px;
 }
-
+.box1 {
+  margin-left: 13%;
+}
 .box2 {
   margin-left: 40%;
 }
 .box3 {
-  margin-top: 30%;
+  margin-left: 13%;
+  margin-top: 25%;
 }
 .box4 {
   margin-left: 40%;
-  margin-top: 30%;
+  margin-top: 25%;
 }
 .box-img {
   margin-top: 5%;
