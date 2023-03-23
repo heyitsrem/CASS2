@@ -150,6 +150,9 @@ input[type=password], select {
   }
   
   .side-link {
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
   padding: 8px;
   margin-left: 7%;
   font-size: 24px;
